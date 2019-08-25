@@ -1,9 +1,14 @@
 footer
     - var currYear = new Date().getYear() + 1900;
-    p &copy;&nbsp;
+
+    p
+        a(target="_blank", herf="http://www.miitbeian.gov.cn/")!=config.icp
+        | &nbsp;
+        | &copy;&nbsp;
         !=currYear
         | &nbsp;
         a(target="_blank", href=config.url,  rel="noopener noreferrer")!=theme.author ? theme.author : config.author ? config.author : config.title
+        | &nbsp;
     p Theme&nbsp;
         a(target="_blank", href="https://github.com/SumiMakito/hexo-theme-typography", rel="noopener noreferrer") Typography
         | &nbsp;by&nbsp;
