@@ -1,5 +1,5 @@
-$backgroundColor: #ffffff;
-$foregroundColor: #2e405b;
+$backgroundColor: #ffffff !default;
+$foregroundColor: #2e405b !default;
 $fontList: "Source Sans Pro", "Roboto", "Helvetica", "Helvetica Neue",
   "Source Han Sans SC", "Source Han Sans TC", "PingFang SC", "PingFang HK",
   "PingFang TC", sans-serif;
@@ -530,7 +530,7 @@ figure {
   }
 
   .soc {
-    display: block !important;
+    //display: block !important;
   }
 
   .site-nav-footer {
@@ -700,7 +700,7 @@ figure {
   }
 
   .soc {
-    display: block !important;
+    //display: block !important;
   }
 
   .site-nav-footer {
@@ -711,3 +711,8 @@ figure {
     display: block !important;
   }
 }
+
+  hr {
+      border-top: 2px solid $foregroundColor;
+  }
+
